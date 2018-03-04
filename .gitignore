@@ -1,15 +1,15 @@
 #gradle build directory
-#build/
+build/
 
 #intellij settings
-#.idea/
-#*.iml
-#*.ipr
-#*.iws
+.idea/
+*.iml
+*.ipr
+*.iws
 
 #compiled classes
-#out/
+out/
 
 #gradle specific deps
-#.gradle/
+.gradle/
 
