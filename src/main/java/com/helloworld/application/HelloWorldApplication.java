@@ -1,6 +1,6 @@
-package com.vesuvius.application;
+package com.helloworld.application;
 
-import com.vesuvius.resources.HelloWorld;
+import com.helloworld.resources.HelloWorld;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

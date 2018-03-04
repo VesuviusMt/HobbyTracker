@@ -1,4 +1,4 @@
-package com.vesuvius.resources;
+package com.helloworld.resources;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
