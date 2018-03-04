@@ -22,6 +22,7 @@ public class HelloWorld {
             joiner.add("what a lovely");
             joiner.add(formatter.format(date));
             joiner.add("it is!");
+            System.out.println("Jonathan: test log");
         } else {
             joiner.add("World!");
         }
