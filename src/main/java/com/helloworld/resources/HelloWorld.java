@@ -7,14 +7,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.StringJoiner;
 
-@Path("/hello-world")
+@Path("hello-world")
 public class HelloWorld {
 
     @GET
     public String getHelloWorld(@QueryParam("name") String name) {
         StringJoiner joiner = new StringJoiner(" ");
         joiner.add("Hello");
-        if (name == null || name.isEmpty()) {
+        if (name != null && !name.isEmpty()) {
             Date date = new Date();
             SimpleDateFormat formatter = new SimpleDateFormat("EEEE, MMMM d");
 
